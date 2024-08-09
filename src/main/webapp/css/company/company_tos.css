@@ -1,0 +1,71 @@
+.terms {
+    margin-top: 100px;
+}
+.terms .termsWrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.terms .termsWrap .termsTit {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.24;
+    text-align: center;
+    color: #16171d;
+}
+.terms .el-tabs-content {
+    overflow: hidden;
+    position: relative;
+}
+.terms .flexSB {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.terms .termsWrap .flexSB {
+    margin-top: 80px;
+    margin-bottom: 42px;
+}
+.terms .termsWrap .flexSB>h2 {
+    margin-bottom: 22px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #16171d;
+}
+.terms .termsWrap .section {
+    margin-bottom: 64px;
+}
+.terms .section .subTit {
+    font-size: 20px;
+    font-weight: 700;
+    color: #16171d;
+}
+.terms .section .desc {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -.5px;
+    color: #54555a;
+}
+.terms .section .descLists {
+    margin-top: 8px;
+}
+.terms .section .descLists> li:first-child {
+    margin-top: 0;
+}
+.terms .section  .descLists>li {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -.5px;
+    color: #54555a;
+}
+.terms .section .descLists>li .depth2 {
+    margin: 8px 0;
+    padding-bottom: 8px;
+    color: #54555a;
+}
+.terms .section2 {
+    margin-top: 24px;
+}

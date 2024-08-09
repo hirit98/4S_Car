@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.mypage_qna_content {
+	width: 92%;
+	display: flex;
+	justify-content: center;
+	margin: 31px 0px 0px 0px;
+}
+
+.mypage_qna_content_table {
+	width: 912px;
+	border-top: 2px solid #000000a3;
+	border-collapse: collapse;
+}
+
+.mypage_qna_content_th {
+	width: 230px;
+	margin: 0;
+	border: 1px solid #00000030;
+	font-size: 16px;
+	background-color: rgb(92 159 236/ 11%);
+	font-weight: 700;
+}
+
+.mypage_qna_content_td {
+	margin: 0;
+	height: 60px;
+	width: 300px;
+	font-size: 15px;
+	border: 1px solid #00000030;
+}
+
+.mypage_qna_content tr:nth-child(4) .mypage_qna_content_td {
+	height: 250px;
+}
+.mypage_qna_content .qna_btn {
+	padding: 7px 21px;
+	margin: 0 5px;
+	background-color: #5c9fec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mypage_qna_content .filebox input[type="file"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+}
+
+.mypage_qna_content .filebox label {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	vertical-align: middle;
+	background-color: #999999;
+	cursor: pointer;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.mypage_qna_content .filebox .upload-name {
+	display: inline-block;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+	width: 78%;
+	color: #999999;
+}

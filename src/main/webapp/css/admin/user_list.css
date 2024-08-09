@@ -1,0 +1,110 @@
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input:focus {
+   outline: none;
+}
+
+.user_list_search_box::placeholder {
+   color: #9baac4;
+   font-size: 14px;
+   font-style: italic;
+   text-align: center;
+}
+
+.user_list_select_box {
+   height: 30px;
+   vertical-align: top;
+   font-size: 14px;
+   color: #16171d;
+   border-radius: 8px;
+   border: 1px solid #d8dee8;
+   outline: none;
+}
+
+.user_list {
+   text-align: center;
+}
+
+.user_list .user_list_title {
+   display: flex;
+   align-items: center;
+}
+
+.user_list .user_list_title .people {
+   width: 130px;
+   height: 130px;
+   border: 2px solid rgb(34, 34, 34);
+   border-radius: 20px;
+}
+
+.user_list .user_list_title p {
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0.699);
+   margin-left: 10px;
+}
+
+.user_list .user_list_title img {
+   width: 50px;
+   height: 50px;
+   margin-left: 10px;
+}
+
+.user_list .user_list_search {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #444;
+   border-radius: 8px;
+   height: 50px;
+   background-color: #444;
+   margin-top: 40px;
+}
+
+.user_list .user_list_search p {
+   text-align: left;
+   margin-left: 20px;
+   line-height: 50px;
+   color: #fff;
+}
+
+.user_list .user_list_search input {
+   height: 30px;
+   border-radius: 8px;
+}
+
+.user_list .user_list_search input:first-of-type {
+   width: 250px;
+}
+
+.user_list .user_list_search input:last-of-type {
+   width: 50px;
+   background-color: #d8dee8;
+   margin-right: 10px;
+}
+
+.user_list .user_list_content {
+   margin-top: 20px;
+   border-top: 1px solid #14171d;
+}
+
+.user_list .user_list_content table {
+   width: 100%;
+}
+
+.user_list .user_list_content tr+tr:hover {
+   cursor: pointer;
+   background-color: #f9fafb;
+}
+
+.user_list .user_list_content tr th, .user_list .user_list_content tr td
+   {
+   width: 25%;
+   height: 50px;
+   font-size: 14px;
+   color: #16171d;
+   text-align: center;
+   border-bottom: 1px solid #d8dee8;
+}

@@ -1,0 +1,123 @@
+.privacy-container {
+    position:relative;
+    width: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.privacy .title-top {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 42px;
+}
+.privacy .title-top>h2 {
+    margin-bottom: 22px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.31;
+    letter-spacing: -.5px;
+    color: #16171d;
+}
+.privacy .section {
+    margin-bottom: 64px;
+}
+.privacy .section h2.tit {
+    padding-top: 16px;
+    color: #16171d;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.4px;
+}
+.privacy .section .desc {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -.5px;
+    color: #54555a;
+}
+.privacy .section ul.depth2 {
+    margin: 8px 0;
+    margin-top: 24px;
+}
+.privacy .section ul.depth2>li {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -.5px;
+    color: #54555a;
+}
+.privacy .section .subTit {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -.5px;
+    color: #16171d;
+}
+.privacy .section .descLists>li {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -.5px;
+    color: #54555a;
+}
+.privacy table {
+    border-spacing: 0;
+    word-break: break-all;
+    word-wrap: break-word;
+    table-layout: fixed;
+}
+.privacy .tb {
+    width: 100%;
+    border-top: 1px solid #e2e8ee;
+    border-color: #e2e8ee;
+    margin: 20px 0;
+}
+.privacy .tb table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.privacy caption {
+    visibility: hidden;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+.privacy .section .tb table th {
+    font-weight: 500;
+    background-color: #f9fafb !important;
+    text-align: center;
+    border-right: 1px solid #f2f2f2;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -.4px;
+    color: #16171d;
+}
+.privacy .tb tr th:last-child {
+    border-right: none;
+}
+.privacy tbody tr td {
+    padding: 14px 16px;
+    border-right: 1px solid #f2f2f2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    letter-spacing: -.4px;
+    color: #16171d;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+.privacy .tb table td.textalign {
+    text-align: left !important;
+}
+.privacy .section .gotoBtn {
+    margin-top: 16px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.43;
+    letter-spacing: -.4px;
+    color: #16171d;
+    text-decoration: underline;
+}

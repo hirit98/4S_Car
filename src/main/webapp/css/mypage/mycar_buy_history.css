@@ -1,0 +1,230 @@
+.car_registration_menual {
+	width: 85%;
+	height: 94vh;
+	margin: 30px 20px 20px 322px;
+}
+
+.car_registration_peopleinfo {
+	display: flex;
+	align-items: center;
+}
+
+.car_registration_peopleinfo .people {
+	width: 130px;
+	height: 130px;
+	border: 2px solid rgb(34, 34, 34);
+	border-radius: 20px;
+	margin: 10px 0px 0px 90px;
+}
+
+.car_registration_peopleinfo .heart {
+	width: 40px;
+	height: 40px;
+	margin: 3px;
+}
+
+.car_registration_peopleinfo_text {
+	text-align: center;
+	justify-content: center;
+}
+
+.car_registration_peopleinfo p {
+	display: flex;
+	margin: 2px 0px 0px 50px;
+}
+
+.car_registration_peopleinfo p:nth-child(1) {
+	font-size: 30px;
+	margin-left: 50px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.815)
+}
+
+.car_registration_peopleinfo p:nth-child(2) {
+	font-size: 36px;
+	color: rgba(0, 0, 0, 0.699);
+}
+
+.car_purchase_details_box hr {
+	margin: 48px 38px 40px 91px;
+	width: 1274px;
+	border: 0.1px solid rgb(79 80 81/ 14%);
+	height: 1px;
+	position: relative;
+}
+
+.car_purchase_details_main {
+	margin: 73px 0px 0px -90px;
+	background-color: #ffffff;
+}
+
+.car_purchase_details_text {
+	display: flex;
+	margin: 38px 0px 0px 0px;
+}
+
+.car_purchase_details_text>p {
+	font-size: 40px;
+	font-weight: 500;
+	margin: 5px 20px 0px 90px;
+}
+
+.car_purchase_details_box>span {
+	font-size: 25px;
+	text-align: center;
+	margin: -60px 0px 0px 116px;
+	background-color: white;
+	width: 125px;
+	position: absolute;
+}
+
+.car_purchase_details img {
+	width: 68px;
+	height: 68px;
+}
+
+.car_purchase_details_main .memo {
+	margin: 0 auto;
+	width: 1260px;
+}
+
+
+.car_purchase_details_main .tab-btns {
+	display: flex;
+	justify-content: space-around;
+}
+
+.car_purchase_details_main .tab-btns li {
+	padding: 20px;
+}
+
+.car_purchase_details_main .blue-bar {
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	z-index: 1;
+	transition: transform .3s cubic-bezier(.645, .045, .355, 1);
+	list-style: none;
+}
+
+.car_purchase_details_main .notice-bar {
+	transform: translateX(-85px);
+	width: 244px;
+	background-color: #cccccc;
+	overflow: visible;
+}
+
+.car_purchase_details_main .event-bar {
+	transform: translateX(-85px);
+	width: 244px;
+	background-color: #cccccc;
+	overflow: visible;
+}
+
+.car_purchase_details_main .tab-btns button {
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.car_purchase_details_main .tab-btns button:focus {
+	color: rgb(92, 159, 236);
+}
+
+.car_purchase_details_main .tab-list {
+	height: 300px;
+}
+
+.car_purchase_details_main .tab-item.active {
+	display: block;
+}
+
+.car_purchase_details_main .tab-item {
+	display: none;
+	height: 100%;
+}
+
+.car_purchase_details_main .board-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -40px;
+    padding: 10px;
+}
+
+.car_purchase_details_main .board-search p {
+	font-size: 14px;
+	color: #54555a;
+	line-height: 20px;
+}
+
+.car_purchase_details_main .main-content {
+	margin-top: 39px;
+}
+
+.car_purchase_details_main .board-table {
+	margin-top: 40px;
+	border-top: 1px solid #14171d;
+}
+
+.car_purchase_details_main .list-table {
+	border-right: 0;
+	border-bottom: 0;
+	position: relative;
+	font-size: 14px;
+	color: #606266;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.car_purchase_details_main .list-table::before {
+	content: "";
+	position: absolute;
+	background-color: #ebeef5;
+	z-index: 1;
+}
+
+.car_purchase_details_main .table {
+	table-layout: fixed;
+	border-collapse: separate;
+}
+
+.car_purchase_details_main .has-gutter {
+	color: #909399;
+	font-weight: 500;
+}
+
+.car_purchase_details_main .has-gutter tr {
+	background-color: #fff;
+}
+
+.car_purchase_details_main .has-gutter tr th {
+	width: 18%;
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	color: #16171d;
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2 !important;
+	padding-bottom: 21px;
+}
+
+.car_purchase_details_main .has-gutter tr th button {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 60px;
+	height: 35px;
+	background: #f2f2f2;
+}
+
+.car_purchase_details_main .has-gutter tr th button:hover {
+	cursor: pointer;
+	background: #dbdbdb;
+}

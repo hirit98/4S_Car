@@ -1,0 +1,161 @@
+.company_info {
+   object-fit: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 730px;
+   opacity: 1;
+   background: url("../../images/회사배경사람.jpg") no-repeat center/cover;
+}
+
+.company_info_visual {
+   width: 600px;
+}
+
+.company_info_visual .company_info_visual_title {
+   margin: 0 0 25px 0;
+   font-size: 40px;
+   font-weight: 700;
+   color: white;
+}
+
+.company_info .company_info_visual_content {
+   text-align: right;
+   font-size: 16px;
+   color: white;
+}
+
+.company_info_box1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+}
+
+.company_info_box1 h2 {
+   font-size: 36px;
+   font-weight: 700;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.795);
+}
+
+.company_info_box2 {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 100px;
+}
+
+.company_info_box2 img {
+   width: 40%;
+   height: 400px;
+}
+
+.company_info_text {
+   width: 60%;
+   line-height: 40px;
+   padding: 5%;
+}
+
+.company_info_box3 .company_info_text {
+   padding-left: 0;
+}
+
+.company_info_box3 {
+   display: flex;
+   align-items: center;
+   flex-direction: row-reverse;
+   margin-top: 100px;
+}
+
+.company_info_box3 img {
+   width: 500px;
+   height: 400px;
+}
+
+.company_info_box4 {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 100px;
+}
+
+.company_info_box4 img {
+   width: 500px;
+   height: 400px;
+}
+
+.company_info_text_p1 {
+   font-size: 28px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.company_info_text_p2 {
+   font-size: 14px;
+   margin-top: 28px;
+}
+
+.company_map {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   margin-top: 150px;
+}
+
+.company_map h2 {
+   font-size: 36px;
+}
+
+.company_map_if iframe {
+   width: 1140px;
+}
+
+.company_map_info {
+   display: flex;
+   width: 100%;
+}
+
+.company_map_info .company_address {
+   width: 50%;
+}
+
+.company_map_info .company_address ul li:last-of-type {
+   font-size: 14px;
+}
+
+.company_map_info ul {
+   display: flex;
+   margin-top: 10px;
+}
+
+.company_map .company_ad {
+   width: 30%;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.company_map_inquiry {
+   width: 50%;
+}
+
+.company_map_inquiry p {
+   margin-top: 10px;
+   font-size: 14px;
+}
+
+.company_map_inquiry button {
+   margin-top: 10px;
+   background-color: #fff;
+   border-radius: 4px;
+   width: 90px;
+   height: 40px;
+   border: 2px solid #f2f2f2;
+}
+
+.company_map_inquiry button:hover {
+   cursor: pointer;
+}

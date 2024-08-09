@@ -1,0 +1,263 @@
+.mycar_registration_menual {
+	width: 85%;
+	height: 94vh;
+	margin: 30px 20px 20px 322px;
+}
+
+.mycar_registration_peopleinfo {
+	display: flex;
+	align-items: center;
+}
+
+.mycar_registration_peopleinfo .people {
+	width: 130px;
+	height: 130px;
+	border: 2px solid rgb(34, 34, 34);
+	border-radius: 20px;
+	margin: 10px 0px 0px 90px;
+}
+
+.mycar_registration_peopleinfo .heart {
+	width: 40px;
+	height: 40px;
+	margin: 3px;
+}
+
+.mycar_registration_peopleinfo_text {
+	text-align: center;
+	justify-content: center;
+}
+
+.mycar_registration_peopleinfo p {
+	display: flex;
+	margin: 2px 0px 0px 50px;
+}
+
+.mycar_registration_peopleinfo p:nth-child(1) {
+	font-size: 30px;
+	margin-left: 50px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.815)
+}
+
+.mycar_registration_peopleinfo p:nth-child(2) {
+	font-size: 36px;
+	color: rgba(0, 0, 0, 0.699);
+}
+
+.mycar_registration_menual hr {
+	margin: 90px 0px 0px 0px;
+	width: 2000px;
+	color: rgba(0, 0, 0, 0.034);
+}
+
+.car_registration_box button {
+	margin: 35px 0px 9px 91px;
+	background-color: rgb(92, 159, 236);
+	border-radius: 15px;
+	border: 2px solid rgb(6, 8, 10);;
+	width: 250px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+}
+
+.car_registration_box button:hover {
+	cursor: pointer;
+}
+
+.car_registration_box button img {
+	width: 40px;
+	height: 40px;
+}
+
+.car_registration_box hr {
+	margin: 48px 38px 40px 91px;
+	width: 1274px;
+	border: 0.1px solid rgb(79 80 81/ 14%);
+	height: 1px;
+	position: relative;
+}
+
+.car_registration_box p {
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+	margin: -61px 0px 0px 114px;
+	font-size: 25px;
+	font-weight: 700;
+	width: 135px;
+	text-align: center;
+}
+
+.car_registration_main {
+	margin: 73px 0px 0px -90px;
+	background-color: #ffffff;
+}
+
+.car_registration_box button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.car_registration_box img {
+	width: 50px;
+	height: 50px;
+	margin: 7px 0px 0px 10px;
+}
+
+.car_registration_main .memo {
+	margin: 0 auto;
+	width: 1260px;
+}
+
+.car_registration_main .tab-btns {
+	display: flex;
+	justify-content: space-around;
+}
+
+.car_registration_main.tab-btns li {
+	padding: 20px;
+}
+
+.car_registration_main .blue-bar {
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	z-index: 1;
+	list-style: none;
+}
+
+.car_registration_main .notice-bar {
+	margin-left: -75px;
+	width: 244px;
+	background-color: #cccccc;
+	overflow: visible;
+}
+
+.car_registration_main .event-bar {
+	margin-left: -85px;
+	width: 244px;
+	background-color: #cccccc;
+	overflow: visible;
+}
+
+.car_registration_main .tab-btns button {
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.car_registration_main .tab-btns button:focus {
+	color: rgb(92, 159, 236);
+}
+
+.car_registration_main .tab-list {
+	height: 300px;
+}
+
+.car_registration_main .tab-item.active {
+	display: block;
+}
+
+.car_registration_main .tab-item {
+	display: none;
+	height: 100%;
+}
+
+.car_registration_main .board-list {
+	margin-top: 80px;
+}
+
+.car_registration_main .board-search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: -40px;
+	padding: 10px;
+}
+
+.car_registration_main .board-search p {
+	font-size: 14px;
+	color: #54555a;
+	line-height: 20px;
+}
+
+.car_registration_main .board-table {
+	margin-top: 40px;
+	border-top: 1px solid #14171d;
+}
+
+.car_registration_main .list-table {
+	border-right: 0;
+	border-bottom: 0;
+	position: relative;
+	font-size: 14px;
+	color: #606266;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.car_registration_main .list-table::before {
+	content: "";
+	position: absolute;
+	background-color: #ebeef5;
+	z-index: 1;
+}
+
+.car_registration_main .table {
+	table-layout: fixed;
+	border-collapse: separate;
+}
+
+.car_registration_main .has-gutter {
+	color: #909399;
+	font-weight: 500;
+}
+
+.car_registration_main .has-gutter tr {
+	background-color: #fff;
+}
+
+.car_registration_main .has-gutter tr th {
+	width: 18%;
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	color: #16171d;
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2 !important;
+	padding-bottom: 21px;
+}
+
+.car_registration_main .cell button {
+	width: 33px;
+	height: 32px;
+	border: none;
+	background-color: #fff;
+}
+
+.car_registration_main .cell button:hover {
+	cursor: pointer;
+}
+
+.car_registration_main .cell button:hover .carinfo_detail_btn {
+	padding: 1px;
+}
+
+.car_registration_main .cell .carinfo_detail_btn {
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+}

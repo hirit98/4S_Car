@@ -1,0 +1,88 @@
+.modify_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modifypassword_form_inner{
+    margin: 300px 400px;
+    width: 800px;
+    height: 300px;
+    border: 1px solid #d8dee8;
+    border-radius: 20px;
+}
+.modify_passwordform{
+    display: flex;
+}
+.modify_password_4scar_logo{
+    position: absolute;
+    width: 160px;
+    height: 130px;
+    margin: 180px 0px 0px 370px;
+}
+.modify_passwordform h2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 254px 0px 0px 533px;
+}
+.modifypassword_form_inner_box > p:nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    margin: 86px 0px 0px px;
+}
+.modifypassword_form_inner_box > p:nth-child(2){
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0px 10px 2px;
+}
+.modifypassword_form_inner_box{
+    position: relative;
+    margin: 73px 0px 67px 133px;
+}
+.myinfo_password_inner{
+    display: flex;
+    margin-top: 40px;
+}
+#password_key{
+    margin: 0px 5px 0px 0px;
+    width: 48px;
+    height: 48px;
+}
+#modify_password{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    font-size: 17px;
+}
+.modify_password_click{
+    padding: 0px;
+    height: 49px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.myinfo_back{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: -20px 10px 0px 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+.myinfo_back_mypage {
+    color: inherit;
+    text-decoration: none;
+    margin:0px 0px 0px 600px;
+}
+.myinfo_back_mypage:hover{
+    cursor: pointer;
+}
+.myinfo_back img{
+    width: 30px;
+    height: 30px;
+}
+#check_btn:hover {
+	cursor: pointer;
+}

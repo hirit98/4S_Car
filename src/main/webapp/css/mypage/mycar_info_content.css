@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.mycar_info_content .info_table {
+	margin: 23px 10px 0 -145px;
+	text-align: center;
+	border-collapse: collapse;
+	width: 1217px;
+}
+.mycar_info_content th {
+	border: 1px solid #00000030;
+	background-color: rgb(92 159 236/ 11%);
+	width: 500px;
+}
+.mycar_info_content .info_table_td {
+	border: 1px solid #00000030;
+}
+.mycar_info_content .info_table_dis {
+	width: 100px;
+	background-color: rgb(92 159 236/11%);
+	border: 1px solid #00000030;
+}
+.mycar_info_content .info_table textarea {
+	outline: none;
+	border: none;
+}
+.mycar_info_content .btn_boxs {
+	padding: 27px 165px 27px 0px;
+}
+.mycar_info_content .mycar_info_btn {
+	padding: 10px 20px;
+	margin: 0 5px;
+	background-color: #5c9fec;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.mycar_info_modify {
+	margin-top: 20px;
+}
+.mycar_info_modify table {
+	text-align: center;
+	width: 1200px;
+	border-collapse: collapse;
+}
+
+.mycar_info_modify th {
+	background-color: rgb(92 159 236/11%);
+	border: 1px solid #00000030;
+	width: 500px;
+}
+
+.mycar_info_modify td {
+	border: 1px solid #00000030;
+}
+
+.mycar_info_modify_detail td{
+	height: 300px;
+	
+}
+
+.mycar_info_filebox {
+	padding: 10px;
+}
+
+.mycar_info_filebox .upload-modify {
+	display:inline-block;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+	width: 78%;
+	color: #999999;
+}
+.mycar_info_filebox label {
+	display:inline-block;
+	color: #fff;
+	padding: 9px 10px 0px 10px;
+	vertical-align: middle;
+	background-color: #5c9fec;
+	cursor: pointer;
+	height: 40px;
+	margin-left: 10px;
+	border-radius: 2px;
+}
+.mycar_info_filebox input[type="file"] {
+	position:absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+}

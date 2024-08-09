@@ -1,0 +1,131 @@
+.manager_login {
+   width: 500px;
+   margin: 5% auto;
+   text-align: left;
+   color: rgba(0, 0, 0, 0.664);
+}
+
+.manager_login .manager_login_title {
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgb(92, 159, 236);
+   font-size: 36px;
+   color: rgba(0, 0, 0, 0.664);
+}
+
+.manager_login .manager_login_title img {
+   width: 100px;
+}
+
+.manager_login .manager_id_area {
+   margin-top: 20px;
+}
+
+.manager_login .manager_id_area h4 {
+   font-size: 20px;
+   color: rgba(0, 0, 0, 0.514);
+}
+
+.manager_login .manager_id_area input {
+   margin-top: 10px;
+   width: 100%;
+   height: 40px;
+   border: 1px solid #d8dee8;
+   border-radius: 8px;
+}
+
+.manager_login .manager_password_area {
+   margin-top: 20px;
+}
+
+.manager_login .manager_password_area h4 {
+   font-size: 20px;
+   color: rgba(0, 0, 0, 0.514);
+}
+
+.manager_login .manager_password_area input {
+   margin-top: 10px;
+   width: 100%;
+   height: 40px;
+   border: 1px solid #d8dee8;
+   border-radius: 8px;
+}
+
+.manager_login .manager_login_save_area {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   margin-top: 20px;
+   font-size: 13px;
+}
+
+.manager_login .manager_login_save_area .manager_login_save_area_bar {
+   width: 1px;
+   height: 16px;
+   background-color: rgba(0, 0, 0, 0.363);
+}
+
+.manager_login .manager_login_submit {
+   margin-top: 20px;
+   width: 100%;
+   height: 40px;
+   color: #fff;
+   font-size: 14px;
+   border: none;
+   border-radius: 8px;
+   background-color: rgb(92, 159, 236);
+}
+
+.manager_login .manager_login_move {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 14px;
+}
+
+.manager_login .manager_login_move .manager_login_move_signup:hover {
+   cursor: pointer;
+}
+
+.manager_login .manager_login_move .manager_login_find span:hover {
+   cursor: pointer;
+}
+
+.manager_login .manager_login_find {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.manager_login .manager_login_find .manager_login_find_bar {
+   width: 1px;
+   height: 20px;
+   background-color: rgba(0, 0, 0, 0.363);
+}
+
+.manager_login .manager_login_simple {
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   font-size: 14px;
+}
+
+.manager_login .manager_login_simple .manager_login_simple_bar {
+   width: 40%;
+   height: 1px;
+   background-color: rgba(0, 0, 0, 0.363);
+}
+
+.manager_login .manager_login_simple span {
+   padding: 0 15px 0 15px;
+}
+
+.manager_login .manager_login_logo {
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.manager_login .manager_login_logo div:hover {
+   cursor: pointer;
+}

@@ -1,0 +1,137 @@
+.main_sign_up .container{
+    display: flex;
+    justify-content: center;
+}
+.main_sign_up h2{
+   font-size: 30px;
+   margin-top: 60px;
+   text-align: center;
+}
+.main_sign_up_text{
+    display: flex;
+    justify-content: center;
+    margin: 15PX 0PX 30PX 0px;
+}
+.main_sign_up .container p{
+   font-size: 15px;
+}
+.input_text{
+    margin-left: 470px;
+    width: 1000px;
+}
+.input_sign_up_inner P{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0px 5px 0px;
+}
+.input_sign_up{
+    display: block;
+    justify-content: center;
+}
+.info{
+    margin: 70px 0 0 17px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    gap: 100px;
+}
+.signup_id_inner{
+    margin-top: 8px 10px 0px 0px;
+    border-radius: 5px;
+    border:1.5px solid rgba(0, 0, 0, 0.171);
+    width: 355px;
+    height: 50px;
+    font-size: 16px;
+}
+.id_Area{
+    margin: 23.5px 0px 43px 0px;
+}
+.password_Area{
+    margin: 23.5px 0px 43px 0px;
+}
+.email_Area{
+    margin: 23.5px 0px 43px 0px;
+}
+.input_id{
+    width: 60px;
+}
+.id_Dupli{
+    margin-top: 8px;
+    right:40px;
+    border-radius: 5px;
+    border:1.5px solid rgba(0, 0, 0, 0.171);
+    width: 70px;
+    height: 48px;
+    font-size: 16px;
+}
+.PhoneNum_Area{
+    left:100px;
+}
+.auth, .timer{
+    margin: 10px 0 0 0 ;  
+}
+#sendMessage, #completion{
+    border-radius: 5px;
+    border:1.5px solid rgba(0, 0, 0, 0.171);
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+#phone{
+    margin-top: -6px;
+}
+#phone1{
+    margin-top: 7px;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border:1.5px solid rgba(0, 0, 0, 0.171);
+    font-size: 14px;
+}
+#phone2, #phone3{
+    margin-top: 7px;
+    width: 120.4px;
+    height: 50px;
+    border-radius: 5px;
+    border:1.5px solid rgba(0, 0, 0, 0.171);
+}
+.id_Dupli:hover{
+    cursor: pointer;
+}
+.id_Area2{
+    top: 100px;
+}
+.PasswordCheck_Area{
+    margin: 50px 0px 35px 0px;
+}
+.PhoneNum_Area, .id_Area2{
+    margin: 15px 0px 33px 0px;
+}
+.signup_title_id, 
+.signup_title_password, 
+.signup_title_password, 
+.signup_title_passwordcheck,
+.signup_title_phone{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#signUpButton{
+    margin-bottom:90px;
+    font-size: 17px;
+    padding: 5px 16px;
+    height: 47px;
+    width: 500px;
+    line-height: 20px;
+    background-color: rgb(129, 167, 239);
+    color:#fff;
+    border:1.5px solid rgba(0, 0, 0, 0.308);
+    border-radius: 5px ;
+}
+#signUpButton:hover{
+	cursor: pointer;
+}

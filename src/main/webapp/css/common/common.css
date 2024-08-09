@@ -1,0 +1,239 @@
+body{
+   max-width: 1903px;
+}
+.header_container{
+   height:100px;
+}
+.header_menu{
+    box-shadow: -3px -13px 18px 3px;
+    position: fixed;
+    z-index: 99;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+}
+.header_menu .logo img{
+   width:100px;
+}
+.button1{
+    font-size: 13px;
+    padding: 5px 16px;
+    height: 30px;
+    line-height: 20px;
+    background-color: rgb(255, 190, 49); 
+    color:#fff;
+    border-radius: 20px ;
+}
+.button2 {
+    font-size: 13px;
+    padding: 5px 16px;
+    height: 30px;
+    line-height: 20px;
+    background-color: #06021a;
+    color:#fff;
+    border-radius: 20px ;
+}
+.gnb{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+.gnb-item + .gnb-item {
+    margin-left: 30px;
+}
+.gnb-item{
+    position: relative;
+}
+.gnb-item .car_sell,
+.gnb-item .car_buy{
+    color: #16171d;
+    font-weight: 700;
+}
+.gnb-item:hover:after{
+    display: block;
+}
+.gnb-item > div{
+    line-height: 50px;
+    display: block;
+    font-size: 18px;
+}
+.gnb-item div:hover{
+    cursor: pointer;
+}
+.gnb-item:hover .lnb{
+    display: block;
+}
+.gnb-item .bar {
+    display:inline-block;
+    width: 1px;
+    background-color: #dbdbdb;
+    font-size: 0;
+}
+.gnb-item .bar {
+    height: 16px;
+    margin: 0 20px;
+    background-color: #dbdbdb;
+    vertical-align: middle;
+}
+.gnb-item .my_page,
+.gnb-item .comunity,
+.gnb-item .customer,
+.gnb-item .gongji {
+    color: #54555a;
+}
+.lnb{
+    position: absolute;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 0px;
+    padding: 0 1px;
+    background-color: #fff;
+    color: black;
+    align-items: center;
+    width: 156px;
+    z-index: 5;
+}
+.lnb-item a {
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.lnb-item a:hover{ 
+    font-size: 14.3px;
+    color: rgb(92 159 236 / 41%);
+}
+.lnb-item:last-of-type:after{
+    display: none;
+}
+.lnb-item{
+    position: relative;
+    padding: 10px 0px;
+}
+.search_area{
+    display: flex;
+    height: 38px;
+    width: 254px;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+  	border: 2px solid rgb(92 159 236 / 41%);
+}
+.search_area button{
+    border-radius: 20px 20px 20px 20px;
+    border: 0 solid black;
+    background-color: white;
+}
+.search_area button:hover{
+   cursor: pointer;
+}
+.search_logo{
+	padding: 2px 0px 2px 3px;
+    height: 100%;
+}
+.search_inner{
+   width:75%;
+}
+.search_inner input{
+   border:0 solid black;
+   width:100%;
+   height:100%;
+   text-align:center;
+}
+.search_inner input:focus{
+   outline-style: none;
+}
+.search_logo{
+  	opacity: 0.5;
+    border-radius: 0;
+}
+.login_main{
+    margin : 12px 0px 12px 0px;
+}
+.inner {
+    position: fixed;
+    z-index: 101;
+    top: 137px;
+    right: 80px;
+    display:none;
+    width: 80px;
+}
+.inner ul {
+    padding: 24px 14px;
+    background-color: rgb(92, 159, 236);
+    border-radius: 16px;
+}
+.inner ul li {
+    position: relative;
+    margin-bottom:32px;
+    font-size: 11.6704px;
+    text-align: center;
+    cursor: pointer;
+}
+.inner ul li span:nth-of-type(2) {
+    white-space: nowrap;
+}
+.inner ul li span {
+    color: #fff;
+    line-height: 30px;
+    font-size: 13px;
+}
+.scroll_top{
+    margin-top: 10px;
+    width: 80px;
+    padding: 24px 14px;
+    background-color:#504e4e;
+    border-radius: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    display: none;
+}
+.scroll_top:hover{
+    cursor: pointer;
+}
+.foot-bottom ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 13.0004px 0;
+}
+.foot-bottom ul li {
+   padding : 0 15.008px 0 15.008px;
+    color: #999;
+}
+.foot-bottom ul li+li {
+    border-left: 1px solid #dbdbdb;
+}
+.foot-bottom ul li:first-of-type {
+    font-weight: 700;
+    padding-left: 0;
+}
+.footer-inner img {
+    width: 80px;
+}
+.footer-info ul {
+    display:flex;
+    align-items: center;
+    height: 24.9844px;
+}
+.footer-info ul li {
+    margin-right: 9.0006px;
+    padding-right: 9.0006px;
+    border-right: 1px solid #999;
+    color: #999;
+    line-height: 1;
+    font-size: 14px;
+}
+.footer-info ul li:last-of-type {
+    border-right: none;
+}
+.copyright {
+    display:flex;
+    height : 80px;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 30px;
+}
+.copyright p {
+    color: #ccc;
+}

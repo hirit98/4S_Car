@@ -1,0 +1,47 @@
+.car_mypage {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.car_mypage_menu {
+	width: 200px;
+	height: 110vh;
+	background-color: #f6f6f6;
+	position: fixed;
+	z-index: 999;
+}
+
+.car_mypage_menu>div {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+	margin: 20px 19px 10px 25px;
+}
+
+.car_mypage_menu>a {
+	font-size: 23px;
+	margin: 10px 0 0 20px;
+	display: block;
+	width: 150px;
+}
+
+.car_mypage_menu>div>p {
+	font-size: 19px;
+	margin-bottom: 18px;
+}
+
+.car_mypage_menu>div>ul {
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+.car_mypage_menu>div>ul>li {
+	margin-bottom: 6px;
+}
+
+.car_mypage_menu>div>ul>li:hover {
+	color: rgb(92, 159, 236, 0.726);
+}
+
+.mypage_logo {
+	width: 100%;
+}

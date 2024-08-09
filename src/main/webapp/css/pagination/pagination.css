@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.pagination {
+    text-align: center;
+    padding: 80px;
+}
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #5c9fec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination button:hover {
+    background-color: #0056b3;
+}
+.pagination .page-numbers {
+    display: inline-block;
+}
+.pagination .page-numbers .page-btn {
+    background-color: #fff;
+    color: rgb(92, 159, 236);
+}
+.pagination .page-numbers .page-btn:hover {
+    background-color: #f0f0f0;
+}
+.pagination .page-numbers .active-btn {
+    background-color: #5c9fec;
+    color: #fff;
+}

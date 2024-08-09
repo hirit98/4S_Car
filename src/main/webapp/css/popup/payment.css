@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.car_list_content .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.car_list_content .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+.car_list_content .modal-content .credit_form {
+	text-align: left;
+	line-height: 30px;
+}
+.car_list_content .cardNum_box input{
+	width: 45px;
+}
+.car_list_content .type_modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 18%;
+    position: relative;
+    text-align: center;
+}
+.car_list_content .cash-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+.car_list_content .button_img img {
+	display: flex;
+	padding: 0 5px 0 5px;
+	width: 100px;
+	height: 100px;
+}
+.car_list_content .button_img button:hover {
+	cursor: pointer;
+}
+.car_list_content button[type="submit"] {
+    background-color: #4CAF50;
+    margin: 10px 0 -10px 0;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.car_list_content button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.car_list_content .close, .type_close, .cash_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -22px;
+    margin-right: -15px;
+}
+.car_list_content .close:hover,
+.car_list_content .type_close:hover,
+.car_list_content .cash_close:hover,
+.car_list_content .close:focus, 
+.car_list_content .type_close:focus,
+.car_list_content .cash_close:focus {
+    color: black;
+    text-decoration: none;
+}

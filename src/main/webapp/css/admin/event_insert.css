@@ -1,0 +1,108 @@
+.admin_event_insert {
+	text-align: center;
+}
+
+.admin_event_insert input[type='text'] {
+	width: 95%;
+	height: 60%;
+	border: 1px solid #d8dee8;
+	text-align: left;
+}
+
+.admin_event_insert .admin_event_insert_title {
+	display: flex;
+	align-items: center;
+}
+
+.admin_event_insert .admin_event_insert_title .people {
+	width: 130px;
+	height: 130px;
+	border: 2px solid rgb(34, 34, 34);
+	border-radius: 20px;
+}
+
+.admin_event_insert .admin_event_insert_title p {
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.699);
+	margin-left: 10px;
+}
+
+.admin_event_insert .admin_event_insert_title img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+.admin_event_insert .admin_event_insert_content {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #14171d;
+}
+
+.admin_event_insert .admin_event_insert_content table {
+	margin: 20px auto 0 auto;
+	width: 50%;
+	border: 1px solid #444;
+}
+
+.admin_event_insert .admin_event_insert_content tr th,
+.admin_event_insert .admin_event_insert_content tr td {
+	height: 50px;
+	font-size: 14px;
+	color: #16171d;
+	text-align: center;
+	border-bottom: 1px solid #d8dee8;
+}
+
+.admin_event_insert .admin_event_insert_content tr th {
+	background-color: #f0f0f0;
+}
+
+.admin_event_insert .admin_event_insert_content tr td {
+	border-left: 1px solid #d8dee8;
+}
+
+.admin_event_insert .admin_event_insert_board_title {
+	width: 95%;
+	height: 100%;
+}
+
+.admin_event_insert .admin_event_insert_content_content {
+	height: 350px;
+}
+
+.admin_event_insert .admin_event_insert_content textarea {
+	resize: none;
+	border: 1px solid #d8dee8;
+	width: 95%;
+	height: 90%;
+}
+
+.admin_event_insert .admin_event_insert_content textarea:focus {
+	outline: none;
+}
+
+.admin_event_insert .admin_insert_file input[type='file'] {
+	overflow: hidden;
+	border: none;
+	color: #999;
+	text-align: left;
+}
+
+.admin_event_insert .admin_event_insert_button {
+	margin-top: 20px;
+}
+
+.admin_event_insert .admin_event_insert_button button {
+	padding: 10px 20px;
+	margin: 0 5px;
+	background-color: #444;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.admin_event_insert .admin_event_insert_button button:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,562 @@
+@charset "UTF-8";
+
+.car_list_content {
+	width: 73%;
+	margin: 53px 216px 0px 318px;
+}
+
+.car_list_content .car-content {
+	text-align: center;
+}
+
+.car_list_content .car_info_box {
+	display: flex;
+	justify-content: center;
+}
+
+.car_list_content_carinfo {
+	height: 550px;
+}
+
+.car_list_content .menu_title {
+	text-align: left;
+	margin-top: 300px;
+}
+
+.car_list_content .detail-box01, .car_list_content .detail-box02,
+	.car_list_content .detail-box03 {
+	margin-top: 40px;
+	margin-left: 29px;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	padding: 25px;
+	height: 300px;
+}
+
+.car_list_content .detail-box01 {
+	text-align: left;
+}
+
+.car_list_content_carinfo span img {
+	width: 35px;
+	height: 35px;
+	margin: 0px -4px -12px -4px;
+	opacity: 0.7;
+}
+
+.car_list_content_carinfo_span_a {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.car_list_content_carinfo_span {
+	font-weight: 700;
+	margin: 0px 0px 0px 3px;
+	font-size: 14px;
+}
+
+.car_list_content_container {
+	margin: 30px 0px 0px 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.car_text_box1_carname {
+	font-weight: 700;
+	font-size: 23px;
+}
+
+.car_text_box hr {
+	height: 1px;
+	width: 100%;
+	border: none;
+	background-color: #00000042;
+	margin-top: -5px;
+}
+.car_image_box_circle{
+	box-shadow: 1px 1px 3px 0px;
+    border-radius: 50px;
+    left: 391px;
+    background: #f7f7f7;
+    bottom: 53px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+.car_image{
+	height: 354px;
+}
+.car_image_box {
+	margin: 0px 0px 0px 82px;
+	display: flex;
+	position: relative;
+}
+
+.car_image_box_inner {
+	border-radius: 10px;
+	height: 79%;
+	width: 33%;
+	box-shadow: 1px 2px 5px 0px;
+}
+
+.car_image img {
+	height: 386px;
+    border-radius: 10px 10px 0px 0px;
+    width: 431px;
+    margin: -1px 0px 0px 0px;
+}
+
+.car_image_box_text {
+	border-radius: 0px 0px 10px 10px;
+	margin: 31px 0px 0px 0px;
+	font-weight: 700;
+	font-size: 15px;
+	height: 47px;
+	background: rgb(92 159 236/ 41%);
+	text-align: center;
+}
+
+.carpicture_info {
+	margin: 165px 28px 0px 38px;
+	opacity: 0.6;
+	width: 80px;
+	height: 80px;
+}
+
+.car_image_box_text p {
+	padding: 15px 0px 0px 0px;
+}
+
+.car_text_box {
+	margin-left: 1px;
+	width: 91%;
+	height: 16%;
+}
+
+.car_text_box1 {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text_box1_inner_text_img {
+	display: flex;
+}
+
+.text_box1_inner_text {
+	display: flex;
+	font-size: 14px;
+	margin: 7px 10px 0px 0px;
+}
+
+.text_box1_inner_img1 {
+	margin-top: 2px;
+	margin-right: 5px;
+	width: 18px;
+	height: 18px;
+}
+
+.text_box1_inner_img2 {
+	margin-top: 2px;
+	margin-right: 5px;
+	width: 15px;
+	height: 17px;
+	opacity: 0.9;
+}
+
+.carlistinfo_content_box {
+	margin: -14px 0px 0px 0px;
+	height: 440px;
+	width: 660px;
+}
+
+.carlistinfo_content_box_inner2_text {
+	margin: 0px 9px 0px 0px;
+}
+
+.carlistinfo_content_box_inner1 {
+	height: 54px;
+	display: flex;
+}
+
+.carlistinfo_content_box_inner1_1 {
+	color: #000000ad;
+	font-weight: 700;
+	font-size: 14px;
+	height: 54px;
+}
+
+.carlistinfo_content_box_inner2 {
+	margin: -66px 0px 0px 0px;
+	height: 348px;
+	display: flex;
+}
+
+.carlistinfo_price_text1 {
+	margin: 7px 0px 0px 0px;
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.carlistinfo_price_text2 {
+	font-weight: 700;
+	font-size: 28px;
+	color: rgb(92 159 236/ 100%);
+}
+
+.carlistinfo_content_box_inner2_circle {
+	border-radius: 50px;
+	width: 90px;
+	height: 90px;
+	background-color: #b5b5b524;
+}
+
+.carlistinfo_content_box_inner2_text_innerbox {
+	margin: 50px 0px 0px 0px;
+	align-items: center;
+	display: flex;
+}
+
+.carlistinfo_content_box_inner2_circle_text {
+	margin: 0px 0px 0px 18px;
+}
+
+.carlistinfo_content_box_inner2_circle_text_1 {
+	font-size: 15px;
+	margin: 0px 0px 10px 0px;
+	font-weight: 600;
+}
+
+.carlistinfo_content_box_inner2_circle_text_2 {
+	font-size: 16px;
+	text-decoration: underline;
+	outline: none;
+	border: none;
+}
+
+.carlistinfo_content_box_inner2_circle_img {
+	margin: 17px 0px 0px 19px;
+	width: 50px;
+	height: 50px;
+	opacity: 0.8;
+}
+
+.carlistinfo_content_box_inner2_circle_img1 {
+	margin: 21px 0px 0px 25px;
+	width: 50px;
+	height: 50px;
+	opacity: 0.8;
+}
+
+.carlistinfo_content_box_inner2_circle_img2 {
+	opacity: 0.8;
+	margin: 21px 0px 0px 21px;
+	width: 50px;
+	height: 50px;
+}
+
+.carlistinfo_content_box_inner3 {
+	height: 44px;
+	width: 506px;
+}
+
+.carlistinfo_content_box_inner3_textbox {
+	display: flex;
+	margin: 11px 0px 0px 96px;
+}
+
+.carlistinfo_content_box_inner3_text1 {
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.carlistinfo_content_box_inner3_text2 {
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(7, 122, 255);
+}
+
+.carlistinfo_content_box_inner2_circle_text4 {
+	border: 2px solid #737373a6;
+	border-radius: 10px;
+	margin: -32px 0px 0px -3px;
+	width: 506px;
+	height: 271px;
+	display: inline-block;
+	position: relative;
+}
+
+.carlistinfo_content_box_inner2_circle_text4>textarea {
+	border-radius: 10px;
+	margin: 26px 0px 0px 20px;
+	width: 464px;
+	height: 220px;
+	resize: none;
+	border: none;
+	padding-top: 10px;
+}
+
+.carlistinfo_content_box_inner2_circle_text4_img {
+	margin: -44px 0px 0px -15px;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	border: 2px solid #0000008c;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background: white;
+}
+
+.carlistinfo_content_box_inner2_circle_text4_h2 {
+	font-weight: 600;
+	margin: -25px 0px 0px 40px;
+	font-size: 15px;
+	position: absolute;
+}
+
+.admin_phoen_number {
+	color: #3b3939eb;
+	margin: 6px 0px 0px -4px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5 {
+	border-radius: 10px;
+	margin: 33px 0px 0px 76px;
+	width: 440px;
+	height: 120px;
+	display: inline-block;
+	display: flex;
+	border: 1px solid #00000036;
+	background: #f9fafb;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_button {
+	display: flex;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_title {
+	font-weight: 600;
+	margin: 8px 0px 0px 21px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_people {
+	color: #434343d6;
+	font-weight: 600;
+	margin: 6px 0px 0px 22px;
+	font-size: 14px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_people>strong {
+	color: #434343d6;
+	font-weight: 600;
+	margin: 6px 0px 0px 0px;
+	font-size: 14px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_button1 {
+	background: rgb(92 159 236/ 51%);
+	border: 1px solid rgb(92 159 236/ 60%);
+	border-radius: 7px;
+	margin: 10px 22px 0px 22px;
+	width: 100px;
+	height: 35px;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_button2 {
+	background: rgb(255, 206, 98);
+	border: 1px solid rgb(217, 184, 111);
+	border-radius: 7px;
+	margin: 10px 22px 0px -15px;
+	width: 100px;
+	height: 35px;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_people_box {
+	display: flex;
+}
+
+.phone_image {
+	margin: 9px 9px 0px 5px;
+	opacity: 0.75;
+	width: 16px;
+	height: 16px;
+}
+
+.admin_phoen_number {
+	color: #3b3939eb;
+	margin: 6px 0px 0px -4px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.carlistinfo_content_box_inner2_circle_text4_inner_img {
+	opacity: 0.7;
+	margin: 0px 0px 0px 1px;
+	width: 41px;
+	height: 44px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_box1 {
+	margin: 0px 0px 0px 43px;
+}
+
+.carlistinfo_content_box_inner2_circle_text5_box2>img {
+	margin: 7px 0px 0px -12px;
+	height: 113px;
+}
+
+.popup_payment_button {
+	color: white;
+	font-size: 17px;
+	font-weight: 600;
+	background: rgb(241 42 42/ 83%);
+	width: 190px;
+	margin: -2px 0px 0px 25px;
+	height: 47px;
+	border-radius: 8px;
+	border: 1px solid rgb(203 53 53/ 83%);
+}
+
+.popup_payment_button:hover {
+	cursor: pointer;
+	background: rgb(207 40 40/ 83%);
+}
+
+.car_image_heartbutton {
+	border: none;
+	background: none;
+	z-index: 1;
+	left: 390px;
+	bottom: 49px;
+	position: absolute;
+	width: 37px;
+	height: 39px;
+}
+
+.car_image_heartbutton img {
+	z-index: 1;
+    left: 7px;
+    bottom: 8px;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+}
+
+.detail_box02_hr {
+	height: 1px;
+	width: 92%;
+	border: none;
+	background-color: #00000042;
+	margin: 4px 0px 0px 0px;
+}
+
+.car_list_content .img-box {
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.car_list_content .img-box img {
+	width: 400px;
+	height: 350px;
+}
+
+.car_list_content .info_table table {
+	border: 1px solid black;
+	text-align: center;
+	width: 510px;
+	border-collapse: collapse;
+}
+
+.car_list_content .info_table th {
+	border-bottom: 1px solid #444;
+	border-left: 1px solid #444;
+	padding: 5px;
+}
+.car_list_content .info_table td {
+	border-bottom: 1px solid #444;
+	border-left: 1px solid #444;
+	padding: 5px;
+}
+
+.car_list_content .menu_title {
+	text-align: left;
+	margin-top: 300px;
+}
+
+.car_list_content .basic-info-box {
+	margin: 288px 0px 0px 0px;
+	height: 450px;
+}
+
+.car_list_content .detail-box01, .car_list_content .detail-box02,
+	.car_list_content .detail-box03 {
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	padding: 25px;
+	height: 300px;
+}
+
+.car_list_content .detail-box01 {
+	text-align: left;
+}
+
+.car_list_content .basic_info_table {
+	border: 0;
+	margin-top: 40px;
+	vertical-align: top;
+}
+
+.car_list_content .basic_info_table th {
+	width: 64px;
+	height: 42px;
+	color: #999;
+	font-weight: normal;
+	text-align: left;
+}
+
+.car_list_content .basic_info_table td {
+	color: black;
+	border: none;
+}
+
+.car_list_content .price_calc {
+	margin-top: 40px;
+}
+
+.car_list_content .price_calc p {
+	line-height: 42px;
+}
+
+.car_list_content .dealer_info {
+	display: flex;
+	margin-top: 40px;
+}
+
+.car_list_content .dealer_info_box strong {
+	line-height: 42px;
+}
+
+.car_list_content .dealer_msg {
+	margin-top: 45px;
+}
+
+.car_list_content .info_table textarea {
+	border: none;
+	resize: none;
+}

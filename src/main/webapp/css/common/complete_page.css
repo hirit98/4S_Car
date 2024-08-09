@@ -1,0 +1,126 @@
+.success_page_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 98vh;
+    position: relative;
+}
+.success_box_inner{
+    margin-bottom: 100px;
+}
+.success_box_inner_text1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.success_box_inner_text1 p{
+	font-size: 45px;
+	font-weight: 700;
+}
+.success_box_inner img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.success_box_inner p:last-child{
+    text-align: center;
+}
+.success_box_inner button{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.76);
+}
+.success_box_inner_text2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: -30px 0 17px 0;
+    color: rgba(0, 0, 0, 0.76);
+    margin-top: 18px;
+}
+.success_box_inner button:hover{
+    cursor: pointer;
+    background-color:rgba(92, 143, 209, 0.37);
+}
+.success_button {
+	width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(92, 143, 209);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.76);
+}
+.success_ok {
+	margin: 7px 250px 0px 250px;
+}
+.success_cok {
+    margin: 7px 250px 0px 291px;
+} 
+.success_crok {
+	margin: 7px 250px 0px 300px;
+}
+.success_bok {
+	margin: 7px 250px 0px 316px;
+}
+.success_dok {
+	margin: 7px 250px 0px 264px;
+}
+.managerpage_success_page_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 98vh;
+    position: relative;
+}
+.managerpage_success_box_inner{
+    margin-bottom: 100px;
+}
+.managerpage_success_box_inner_text1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.managerpage_success_box_inner_text1 p{
+	font-size: 45px;
+	font-weight: 700;
+}
+.managerpage_success_box_inner img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+.managerpage_success_box_inner p:last-child{
+    text-align: center;
+}
+.managerpage_success_box_inner button{
+    margin: 7px 250px 0px 250px;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(22, 21, 21, 0.753);
+    background-color:#112f52;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.911);
+}
+.managerpage_success_box_inner_text2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: -30px 0 17px 0;
+    margin-top: 18px;
+    color: rgb(0, 0, 0);
+}
+.managerpage_success_box_inner button:hover{
+    cursor: pointer;
+    background-color:rgba(28, 67, 122, 0.966);
+}

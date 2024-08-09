@@ -1,0 +1,257 @@
+.review-list {
+	margin-top: 100px;
+}
+
+.review-list hr {
+	margin: 48px 38px 40px 91px;
+	width: 1274px;
+	border: 0.1px solid rgb(79 80 81/ 14%);
+	height: 1px;
+	position: relative;
+}
+
+.review-box p {
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+	margin: -61px 0px 0px 114px;
+	font-size: 25px;
+	font-weight: 700;
+	width: 135px;
+	text-align: center;
+}
+
+.myreview .reviews {
+	margin: 0 0 0 100px;
+	width: 1260px;
+}
+
+.myreview .tab-btns {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.myreview .tab-btns li {
+	padding: 20px;
+}
+
+.myreview .blue-bar {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	list-style: none;
+	height: 3px;
+	background-color: blue;
+}
+
+.myreview .notice-bar {
+	transform: translateX(-85px);
+	width: 244px;
+	background-color: #cccccc;
+}
+
+.myreview .event-bar {
+	transform: translateX(-85px);
+	width: 244px;
+	background-color: #cccccc;
+}
+
+.myreview .qna-bar {
+	transform: translateX(-85px);
+	width: 244px;
+	background-color: #cccccc;
+}
+
+.myreview .tab-btns button {
+	cursor: pointer;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.myreview .review-tab-list {
+	height: 300px;
+}
+
+.myreview .tab-item {
+	display: none;
+	height: 100%;
+}
+
+.myreview .tab-item .active {
+	display: block;
+}
+
+.myreview .review-board-list {
+	margin-top: 39px;
+}
+
+.myreview .content-review {
+	margin-top: 30px;
+}
+
+.myreview .review-search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: -40px;
+	padding: 10px;
+}
+
+.myreview .review-search p {
+	color: #54555a;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.myreview .reviewSearchForm {
+	display: flex;
+}
+
+.myreview .select-review {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.myreview .review-inner {
+	width: 246px;
+	height: 45px;
+	border-radius: 8px;
+	border: 1px solid #d8dee8;
+}
+
+.myreview .reviewSearchForm li {
+	margin-left: 20px;
+}
+
+.myreview .textReview {
+	position: relative;
+	font-size: 14px;
+	width: 100%;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.myreview .review-text {
+	height: 45px;
+	font-size: 13px;
+	border: 1px solid #d8dee8;
+	border-radius: 8px;
+	color: #16171d;
+	padding: 0 130px 0 12px;
+	outline: none;
+}
+
+.myreview .reviewbutton {
+	display: inline-block;
+	white-space: nowrap;
+	outline: 0;
+	margin: 0;
+	padding: 12px 16px;
+	color: #54555a;
+	width: 56px;
+	height: 56px;
+}
+
+.myreview .rbtn {
+	border: 1px solid #d8dee8;;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: #fff;
+	width: 45px;
+	height: 45px;
+}
+
+.myreview .reviewbutton img {
+	width: 35px;
+	height: 35px;
+	margin: -8px 0px 0px -12px;
+	opacity: 0.5;
+}
+
+.myreview .review-table {
+	margin-top: 40px;
+	border-top: 1px solid #14171d;
+}
+
+.myreview .table-list {
+	border-right: 0;
+	border-bottom: 0;
+	position: relative;
+	font-size: 14px;
+	color: #606266;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.myreview .table-list::before {
+	content: "";
+	position: absolute;
+	background-color: #ebeef5;
+	z-index: 1
+}
+
+.myreview .table {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.myreview .review_board_list:hover {
+	background-color: #f9fafb;
+	cursor: pointer;
+}
+
+.myreview .gutter {
+	color: #909399;
+	font-weight: 500;
+}
+
+.myreview .gutter tr {
+	background-color: #fff;
+}
+
+.myreview .gutter tr th {
+	width: 20%;
+	font-size: 14px;
+	font-weight: 500;
+	color: #16171d;
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2 !important;
+	padding-bottom: 21px;
+}
+
+.myreview .active {
+	display: block;
+}
+
+.myreview button:hover {
+	cursor: pointer;
+}
+
+.myreview .cell button {
+	width: 33px;
+	height: 32px;
+	border: none;
+	background-color: #fff;
+}
+
+.myreview .cell button:hover .review_detail_btn {
+	padding: 1px;
+}
+
+.myreview .cell .review_detail_btn {
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+}

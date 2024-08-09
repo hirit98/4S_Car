@@ -1,0 +1,248 @@
+.qna {
+	margin-top: 100px;
+	height: 800px;
+	position: relative;
+}
+
+.qna_title {
+	text-align: center;
+}
+
+.qna_content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.qna .qury {
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.qna .line {
+	margin-bottom: 40px;
+	background: #ddd;
+	height: 1px;
+	border: 0;
+}
+
+.qna .basic-info {
+	margin-bottom: 10px !important;
+}
+
+.qna .tit {
+	float: left;
+	width: 140px !important;
+}
+
+.qna .tit span {
+	display: block;
+	height: 40px;
+	line-height: 38px;
+	font-size: 16px;
+}
+
+.qna .input-area {
+	padding: 0 0 0 200px;
+	padding-left: 140px;
+}
+
+.qna .sele {
+	width: 270px !important;
+	border: 0 !important;
+	margin-top: 10px;
+	background-color: #fff;
+	color: #5c9fec;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.qna .sele:focus {
+	border: 1px solid #5c9fec;
+	outline: none;
+}
+
+.qna option {
+	display: block;
+	min-height: 12px;
+	padding: 0 2px 1px;
+	white-space: nowrap;
+}
+
+.qna .input-title {
+	padding-right: 54px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 6px 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+.qna .input-title>input {
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 26px;
+	width: 100%;
+	border: 0 none;
+	font-size: 16px;
+	color: #222;
+	background-color: transparent;
+	outline: 0;
+}
+
+.qna .input-title>.t-txt {
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #999;
+}
+
+.qna .txt-box {
+	position: relative;
+	width: 700px;
+	height: 100px;
+	padding-bottom: 34px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+.qna .txt-box>.tp01 {
+	width: 100%;
+	height: 100%;
+	border: 0 none;
+}
+
+.qna textarea {
+	padding: 10px;
+	outline: none;
+}
+
+.qna .tp01 {
+	display: block;
+	color: #222;
+	resize: none;
+	background-color: #fff;
+}
+
+.qna .txt-count {
+	position: absolute;
+	right: 19px;
+	bottom: 14px;
+	display: block;
+	line-height: 20px;
+	font-size: 14px;
+	color: #999;
+}
+
+.qna .input-fi {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.qna .input-fi label {
+	display: block;
+	text-align: center;
+	height: 40px;
+	width: 80px;
+	padding: 0 5px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.qna .input-fi label span {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 38px;
+	font-size: 14px;
+	color: #666;
+}
+
+.qna .input-fi input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: none;
+}
+
+.qna .file-txt::before {
+	content: "※";
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+}
+
+.qna .file-txt {
+	position: relative;
+	display: inline-block;
+	padding-left: 20px;
+	vertical-align: middle;
+	margin-left: 6px;
+	color: #666;
+	font-size: 14px;
+}
+
+.qna .file-type {
+	font-size: 12px;
+}
+
+.qna .fb-bottom {
+	overflow: hidden;
+	padding-top: 30px;
+	margin-left: -20px;
+}
+
+.qna .area-button {
+	margin-bottom: 100px !important;
+	text-align: center;
+}
+
+.qna .area-button>.btn01 {
+	margin: 0 5px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	background-color: #5c9fec;
+	padding: 10px 20px;
+}
+
+.qna .btn01:hover {
+	cursor: pointer;
+}
+
+.qna .area-button>.btn01>span {
+	display: inline-block;
+	outline: none;
+	border: none;
+}
+
+.qna .blue {
+	margin: 0 5px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.qna .btn01>span {
+	color: #fff;
+	font-size: 18px;
+}
+
+.qna .blue span {
+	border: none;
+	background-color: #5c9fec;
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.admin_pagination {
+	text-align: center;
+	padding: 80px 0 0 0;
+}
+
+.admin_pagination button {
+	padding: 10px 20px;
+	margin: 0 5px;
+	background-color: #444;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.admin_pagination button:hover {
+	background-color: #000;
+}
+
+.admin_pagination .page-numbers {
+	display: inline-block;
+}
+
+.admin_pagination .page-numbers .page-btn {
+	background-color: #fff;
+	color: rgba(1, 37, 82, 0.658);
+}
+
+.admin_pagination .page-numbers .page-btn:hover {
+	background-color: #f0f0f0;
+}
+
+.admin_pagination .page-numbers .active-btn {
+	background-color: #444;
+	color: #fff;
+}
+.admin_pagination .page-numbers .active-btn:hover {
+	background-color: #000;
+}

@@ -1,0 +1,140 @@
+.admin_qna_content {
+	text-align: center;
+}
+
+.admin_qna_content .admin_qna_content_title {
+	display: flex;
+	align-items: center;
+}
+
+.admin_qna_content .admin_qna_content_title .people {
+	width: 130px;
+	height: 130px;
+	border: 2px solid rgb(34, 34, 34);
+	border-radius: 20px;
+}
+
+.admin_qna_content .admin_qna_content_title p {
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.699);
+	margin-left: 10px;
+}
+
+.admin_qna_content .admin_qna_content_title img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+.admin_qna_content h2 {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #14171d;
+}
+
+.admin_qna_content_top {
+	display: flex;
+}
+
+.admin_qna_content .admin_qna_content_content {
+	width: 50%;
+}
+
+.admin_qna_content .admin_qna_content_content table {
+	margin: 20px auto 0 auto;
+	width: 90%;
+	border: 1px solid #444;
+	height: 100%;
+}
+
+.admin_qna_content .admin_qna_content_content tr th, .admin_qna_content .admin_qna_content_content tr td
+	{
+	height: 50px;
+	font-size: 14px;
+	color: #16171d;
+	text-align: center;
+	border-bottom: 1px solid #d8dee8;
+}
+
+.admin_qna_content .admin_qna_content_content tr th {
+	background-color: #f0f0f0;
+	width: 200px;
+}
+
+.admin_qna_content .admin_qna_content_content tr td {
+	border-left: 1px solid #d8dee8;
+}
+
+.admin_qna_content .admin_qna_content_content textarea {
+	resize: none;
+	border: none;
+	width: 95%;
+	height: 95%;
+	border: none;
+}
+
+.admin_qna_content .admin_qna_content_content textarea:focus {
+	outline: none;
+}
+
+.admin_qna_content .admin_qna_content_answer table {
+	margin: 80px auto 0 auto;
+	width: 95%;
+	border: 1px solid #444;
+	height: 100%;
+}
+
+.admin_qna_content .admin_qna_content_answer tr th, .admin_qna_content .admin_qna_content_answer tr td
+	{
+	height: 50px;
+	font-size: 14px;
+	color: #16171d;
+	text-align: center;
+	border-bottom: 1px solid #d8dee8;
+}
+
+.admin_qna_content .admin_qna_content_answer tr th {
+	background-color: #f0f0f0;
+	width: 200px;
+}
+
+.admin_qna_content .admin_qna_content_answer tr td {
+	border-left: 1px solid #d8dee8;
+}
+
+.admin_qna_content .admin_qna_content_answer {
+	width: 100%;
+}
+
+.admin_qna_content .admin_qna_content_button {
+	padding: 40px;
+}
+
+.admin_qna_content .admin_qna_content_button button {
+	padding: 10px 20px;
+	margin: 0 5px;
+	background-color: #444;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.admin_qna_content .admin_qna_content_button button+button {
+	margin-left: 20px;
+}
+
+.admin_qna_content .admin_qna_content_button button:hover {
+	cursor: pointer;
+}
+
+.admin_qna_content .admin_qna_content_answer textarea {
+	resize: none;
+	width: 99%;
+	height: 96%;
+	margin-top: 4px;
+}
+
+.admin_qna_content .admin_qna_content_answer textarea:focus {
+	outline: none;
+}

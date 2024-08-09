@@ -1,0 +1,112 @@
+.admin_company_info_modify {
+	text-align: center;
+}
+
+.admin_company_info_modify input {
+	width: 95%;
+	height: 60%;
+	border: 1px solid #d8dee8;
+}
+
+.admin_company_info_modify .admin_company_info_modify_title {
+	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+.admin_company_info_modify .admin_company_info_modify_title .people {
+	width: 130px;
+	height: 130px;
+	border: 2px solid rgb(34, 34, 34);
+	border-radius: 20px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_title p {
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.699);
+	margin-left: 10px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_title img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_all {
+	display: flex;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_all .admin_company_info_modify_left
+	{
+	width: 40%;
+}
+
+.admin_company_info_modify .admin_company_info_modify_all .admin_company_info_modify_left img
+	{
+	width: 100%;
+	margin-top: 18px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_all form {
+	width: 60%;
+}
+
+.admin_company_info_modify .admin_company_info_modify_content table {
+	margin: 20px auto 0 auto;
+	width: 80%;
+	border: 1px solid #444;
+}
+
+.admin_company_info_modify .admin_company_info_modify_content tr th,
+	.admin_company_info_modify .admin_company_info_modify_content tr td {
+	height: 50px;
+	font-size: 14px;
+	color: #16171d;
+	text-align: center;
+	border-bottom: 1px solid #d8dee8;
+}
+
+.admin_company_info_modify .admin_company_info_modify_content tr th {
+	background-color: #f0f0f0;
+}
+
+.admin_company_info_modify .admin_company_info_modify_content tr td {
+	border-left: 1px solid #d8dee8;
+}
+
+.admin_company_info_modify .admin_company_info_modify_content textarea {
+	resize: none;
+	border: none;
+	width: 95%;
+	height: 80%;
+}
+
+.admin_company_info_modify .admin_company_info_modify_content textarea:focus {
+	outline: none;
+}
+
+.admin_company_info_modify .admin_company_info_modify_button {
+	margin-top: 20px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_button button {
+	padding: 10px 20px;
+	margin: 0 5px;
+	background-color: #444;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.admin_company_info_modify .admin_company_info_modify_button button+button {
+	margin-left: 20px;
+}
+
+.admin_company_info_modify .admin_company_info_modify_button button:hover {
+	cursor: pointer;
+}

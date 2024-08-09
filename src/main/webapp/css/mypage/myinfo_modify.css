@@ -1,0 +1,59 @@
+.correct {
+    max-width: 500px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.correct .title_bar {
+    display: flex;
+    align-items: center;
+}
+.correct .correct-bar {
+    flex: auto;
+    height: 2px;
+    background:rgb(92, 159, 236); 
+    border: 0;
+}
+.correct h2 {
+    text-align: center;
+    padding: 0 10px;
+}
+.correct .form-group {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 350px;
+}
+.correct .btn {
+    display: flex;
+    justify-content: center;
+}
+.correct .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.correct .form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.correct .reset {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.correct .form-group .submit {
+    padding: 10px 20px;
+    background-color: rgb(92, 159, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}

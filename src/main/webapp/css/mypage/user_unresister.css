@@ -1,0 +1,86 @@
+.user_out_page {
+   width: 1000px;
+   margin-left: 200px;
+   padding-top: 50px;
+}
+
+.user_out_page>p {
+   font-size: 36px;
+}
+
+.user_out_page_hrbox1 {
+   width: 1000px;
+   height: 4px;
+   background-color: rgba(255, 190, 49, 0.61);
+   margin-bottom: 2px;
+}
+
+.user_out_page_hrbox2 {
+   width: 1000px;
+   height: 7px;
+   background-color: rgba(92, 159, 236, 0.685);
+   margin-bottom: 10px;
+}
+
+.user_out_page_menual {
+   width: 83%;
+   height: 94vh;
+   margin: 30px 20px 20px 322px;
+}
+
+.user_out_button_box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.user_out_button {
+   margin: 55px 0px 51px -63px;
+   border-radius: 10px;
+   border: 1px solid rgb(6, 8, 10);
+   width: 210px;
+   height: 50px;
+   background-color: rgb(92, 159, 236);
+   color: white;
+   font-size: 23px;
+   font-weight: 500;
+}
+
+.user_out_button:hover {
+   cursor: pointer;
+   background-color: rgb(92, 159, 236, 0.726);
+}
+
+.user_out_page hr {
+   width: 1000px;
+}
+
+.out_info p:first-child {
+   margin: 20px 0px 0px 0px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.out_info p:nth-child(5) {
+   margin: 20px 0px 0px 0px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.out_thankyou {
+   margin: 20px 0px 0px 0px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+#inforadio1 {
+   margin-left: 10px;
+}
+
+#inforadio2 {
+   margin-left: 61px;
+}
+
+.user_out_checkbox2 {
+   margin: 0px 0px 20px 0px;
+}

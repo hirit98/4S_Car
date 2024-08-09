@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+.car_myreview_board_content {
+	width: 92%;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	margin: 31px 0px 0px 0px;
+}
+
+.car_myreview_board_content h2 {
+	font-size: 38px;
+}
+
+.car_review_board_content img {
+	width: 60px;
+	height: 60px;
+	margin: 0px 0px -19px -3px;
+}
+
+.car_myreview_board_content_table {
+	height: 540px;
+	max-width: 912px;
+	border-top: 2px solid #000000a3;
+	border-collapse: collapse;
+}
+
+.car_myreview_board_content th {
+	width: 230px;
+	margin: 0;
+	border: 1px solid #00000030;
+	font-size: 16px;
+}
+
+.car_myreview_board_content td {
+	margin: 0;
+	height: 60px;
+	width: 373px;
+	font-size: 15px;
+	border: 1px solid #00000030;
+}
+
+.car_myreview_board_content th input {
+	font-size: 16px;
+}
+
+.car_myreview_board_content td input {
+	font-size: 15px;
+}
+
+.car_myreview_board_content tr:nth-child(1) th {
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.car_myreview_board_content tr:nth-child(2) th {
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.car_myreview_board_content tr:nth-child(3) th {
+	background-color: rgb(92 159 236/ 11%);
+}
+
+.car_myreview_board_content tr:nth-child(4) th {
+	background-color: rgb(92 159 236/ 11%);
+}
+
+.car_myreview_board_content tr:nth-child(3) td {
+	width: 300px;
+	height: 250px;
+}
+
+.car_myreview_board_content tr:nth-child(4)>td {
+	width: 300px;
+	height: 10%;
+}
+
+.car_myreview_board_content .content_input {
+	text-align: center;
+	width: 92%;
+	height: 4em;
+	border: none;
+	resize: none;
+	outline: none;
+}
+
+.car_myreview_board_content .content_input_cont {
+	width: 100%;
+	height: 13em;
+	border: none;
+	resize: none;
+}
+
+.car_myreview_board_content .content_input_cont_div {
+	height: 94%;
+	margin: 0px 0px 0px 8px;
+	width: 98%;
+	border: 1px solid #00000036;
+}
+
+.car_myreview_board_content .content_input_cont:focus {
+	outline-style: none;
+}
+
+.car_myreview_board_content #content_title {
+	font-size: 15px;
+	text-align: center;
+	width: 79%;
+	height: 3em;
+	border: none;
+	resize: none;
+}
+
+.car_myreview_board_content #content_title:focus {
+	outline-style: none;
+}
+
+.car_myreview_board_content .filebox label {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	vertical-align: middle;
+	background-color: #5c9fec;
+	cursor: pointer;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.car_myreview_board_content .filebox .upload-name {
+	display: inline-block;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+	width: 78%;
+	color: #999999;
+	outline: none;
+}
+
+.car_myreview_board_content input[type="file"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+.mypage_review_btn {
+	padding: 7px 21px;
+	margin: 0 5px;
+	background-color: #5c9fec;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.review_button {
+	margin: 6px -9px 0px 60px;
+	border: 1px solid #cbc9c9;
+	border-radius: 5px;
+	height: 43px;
+	width: 117px;
+}
+
+.review_button:hover {
+	cursor: pointer;
+	background-color: #dedede;
+	border: 1px solid #868686;
+}
+
+.review_insert_input_cont {
+	text-align: center;
+	width: 92%;
+	height: 4em;
+	border: none;
+	resize: none;
+}
+
+.car_myreview_insert_board_content_table {
+	height: 540px;
+	width: 1000px;
+	text-align: center;
+	border-top: 2px solid #000000a3;
+	border-collapse: collapse;
+	margin: 46px 0px 0px 0px;
+}
+
+.car_myreview_insert_board_content th {
+	border: 1px solid #00000030;
+}
+
+.car_myreview_insert_board_content td {
+	border: 1px solid #00000030;
+}
+
+.car_myreview_insert_board_content tr:nth-of-type(1) th {
+	height: 65px;
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+	width: 120px;
+}
+
+.car_myreview_insert_board_content tr:nth-of-type(2) th {
+	height: 65px;
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+	width: 120px;
+}
+
+.car_myreview_insert_board_content tr:nth-of-type(3) th {
+	height: 65px;
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+	width: 120px;
+}
+
+.car_myreview_insert_board_content tr:nth-of-type(4) th {
+	height: 160px;
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+	width: 120px;
+}
+
+.car_myreview_insert_board_content tr:nth-of-type(5) th {
+	height: 65px;
+	width: 120px;
+	background-color: rgb(92 159 236/ 11%);
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.car_myreview_insert_board_content input:focus {
+	outline-style: none;
+}
+
+.car_myreview_insert_board_content .filebox label {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	vertical-align: middle;
+	background-color: #5c9fec;
+	cursor: pointer;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.car_myreview_insert_board_content .filebox .upload-name {
+	display: inline-block;
+	height: 40px;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+	width: 78%;
+	color: #999999;
+	outline: none;
+}
+
+.car_myreview_insert_board_content input[type="file"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+.review_insert_input_cont:focus {
+	outline-style: none;
+}
+
+.cb {
+	margin: -8px 10px 10px 10px;
+}
